@@ -36,6 +36,9 @@ arguments = ["img", "--transition-type", "center"]
 # For example, killing the wallpaper daemon. Usage is like a normal hook.
 # pre_hook = ""
 
+[config.custom_keywords]
+test = "aaaa"
+
 [templates.includeme]
 input_path = "./include.txt"
 # The output path is optional if you just want to import the template anyways,
@@ -75,7 +78,7 @@ post_hook = 'echo "after gen"'
 
 # Only hex values
 # https://m3.material.io/styles/color/advanced/adjust-existing-colors#1cc12e43-237b-45b9-8fe0-9a3549c1f61e
-# Blend is set to true by default. 
+# Blend is set to true by default.
 [config.custom_colors]
 red = "#ff0000"
 blue = { color = "#0000ff", blend = false }
